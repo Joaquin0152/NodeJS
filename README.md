@@ -12,8 +12,8 @@ If your README is long, add a table of contents to make it easy for users to fin
 In order for you to run my program you will need to install npm inquirer and node.js.
 ## Usage
 First thing you want to do is install inquirer as shown below and you will be able to download the necessary files. 
-    md
-    ![alt text](assets/images/Capture.png)
+  
+ ![alt text](assets/images/Capture.png)
 ## Credits
 https://github.com/Joaquin0152
 ## License
