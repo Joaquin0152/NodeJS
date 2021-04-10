@@ -41,10 +41,26 @@ const promptUser = () => {
     },
 ]);
 };
+const generateReadMe = (answers) =>
+`# ${answers.title}
+## Instructions:
+${answers.instructions}
+## Credits
+${answers.credits}
+## Table of Contents
+## Installation: 
+${answers.instructions}
+## License: ${answers.license}
+## Questions:
+Contact me @
+GitHub: https://github.com/${answers.github}
+Email: ${answers.email}`;
+
+
 //Writing a FileAsync as a promise
 const init = () => {
     promptUser()
-      .then((answers) => writeFile('README.md', generateHTML(answers)))
+      .then((answers) => writeFile('README.md', generateReadMe (answers)))
       .then(() => console.log('Successfully wrote to README.md'))
       .catch((err) => console.error(err));
   };
