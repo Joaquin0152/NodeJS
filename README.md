@@ -43,6 +43,5 @@ SOFTWARE.
 ## Badges
 ![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-https://shields.io/category/license
 ## Tests
 In order for the test to run you will need to type in node index.js.
