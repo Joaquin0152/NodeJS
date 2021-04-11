@@ -47,7 +47,6 @@ const generateReadMe = (answers) =>
 ${answers.instructions}
 ## Credits
 ${answers.credits}
-## Table of Contents
 ## Installation: 
 ${answers.instructions}
 ## License: ${answers.license}
