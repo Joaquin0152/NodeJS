@@ -50,11 +50,20 @@ ${answers.credits}
 ## Installation: 
 ${answers.instructions}
 ## License: ${answers.license}
+${answers,licenseInfo}
 ## Questions:
 Contact me @
 GitHub: https://github.com/${answers.github}
 Email: ${answers.email}`;
 
+function licenseInfo(answers){
+  let licenseSelection = data.license[0];
+  let yourLicense = ''
+  if(licenseSelection == 'MIT'){
+    yourLicense = `![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)`
+  }
+  return yourLicense;
+}
 
 //Writing a FileAsync as a promise
 const init = () => {

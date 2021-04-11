@@ -1,11 +1,11 @@
-# Joa
+# joa
 ## Instructions:
-Joa
+joa
 ## Credits
-Joa
+joa
 ## Table of Contents
 ## Installation: 
-Joa
+joa
 ## License: MIT
 ## Questions:
 Contact me @
